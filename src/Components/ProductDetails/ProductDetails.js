@@ -32,8 +32,9 @@ const ProductDetails = () => {
       {error && <div className="error-message">{error}</div>}
       <img src={product.image} alt={product.title} />
       <h2>{product.title}</h2>
+      <h3>{product.category}</h3>
       <p className="price">${product.price}</p>
-      <p className="rating">Rating: {product.rating.rate}</p>
+      <p className="rating">{`Rating: ${product.rating.rate} Count: ${product.rating.count}`}</p>
       <p>{product.description}</p>
     </div>
   );

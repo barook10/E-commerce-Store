@@ -40,13 +40,23 @@ http://localhost:3000
 
 - **src**
 - **components**: Contains various UI components
+<<<<<<< HEAD
  - **App**: The main component that handles routing 
+=======
+>>>>>>> origin/main
  - **Header**: Renders the header navigation bar
  - **Footer**: Renders the footer
  - **ProductList**: Displays the list of products
  - **ProductDetails**: Displays the details of a selected product
 - **context**: Contains the ErrorContext for error handling
+<<<<<<< HEAD
 - **utils**: Contains API fetch functions
+=======
+- **images**: Contains images used in the application
+- **services**: Contains API fetch functions
+- **utils**: Contains utility functions
+- **App.js**: The main component that handles routing
+>>>>>>> origin/main
 - **index.js**: The entry point of the application
 
 ## Features
