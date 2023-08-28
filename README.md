@@ -21,7 +21,7 @@ The E-commerce Store is a web application that allows users to browse and view p
 
 ### Installation
 1. Clone the repository:
-git clone https://github.com/yourusername/e-commerce-store.git
+git clone https://github.com/barook10/e-commerce-store.git
 
 2. Navigate to the project directory:
 cd e-commerce-store
@@ -40,23 +40,14 @@ http://localhost:3000
 
 - **src**
 - **components**: Contains various UI components
-<<<<<<< HEAD
- - **App**: The main component that handles routing 
-=======
->>>>>>> origin/main
+ - **App**: The main component that handles routing
  - **Header**: Renders the header navigation bar
  - **Footer**: Renders the footer
  - **ProductList**: Displays the list of products
  - **ProductDetails**: Displays the details of a selected product
 - **context**: Contains the ErrorContext for error handling
-<<<<<<< HEAD
 - **utils**: Contains API fetch functions
-=======
-- **images**: Contains images used in the application
-- **services**: Contains API fetch functions
-- **utils**: Contains utility functions
-- **App.js**: The main component that handles routing
->>>>>>> origin/main
+- **utils**: Contains API fetch functions
 - **index.js**: The entry point of the application
 
 ## Features
