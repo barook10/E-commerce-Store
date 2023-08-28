@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ErrorProvider>
     <App />
-    </ErrorProvider>
+  </ErrorProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { fetchProducts } from '../../utils/Store'; // Adjust the import path
+import { fetchProducts } from '../../utils/Store';
 import { useErrorContext } from '../Context/ErrorContext';
 import './ProductList.css';
 
