@@ -10,7 +10,7 @@ const Header = () => {
       <nav className="navbar">
         <div className="navbar-item">
           <Link to="/" className="store">
-          <h3 >E-commerce Store</h3>
+          <a href=''>E-commerce Store</a>
           </Link>
           <ScrollLink
             to="product-list"
@@ -18,7 +18,7 @@ const Header = () => {
             duration={500}
             className="navbar-item"
           >
-            <h3 className='products'>Products</h3>
+            <a href='' className='products'>Products</a>
           </ScrollLink>
           
         </div>
