@@ -38,4 +38,12 @@
   .product-item p.rating {
     color: #e7711b;
   }
+
+  .error-message {
+    border: 2px solid red;
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+    text-align: center; 
+  }
   
